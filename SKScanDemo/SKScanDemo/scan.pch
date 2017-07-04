@@ -1,0 +1,28 @@
+//
+//  scan.pch
+//  SKScanDemo
+//
+//  Created by XunLi on 2017/6/27.
+//  Copyright © 2017年 AlexanderYeah. All rights reserved.
+//
+
+#ifndef scan_pch
+#define scan_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#define kScreenWidth   [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight  [UIScreen mainScreen].bounds.size.height
+
+#define MAS_SHORTHAN
+#define MAS_SHORTHAND_GLOBALS
+
+
+#import "Masonry.h"
+
+
+
+
+#endif /* scan_pch */
